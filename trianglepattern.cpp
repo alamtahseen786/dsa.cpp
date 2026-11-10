@@ -59,12 +59,12 @@ int main(){
     int num=1;
     for(i=0;i<n;i++){
         // spaces
-        for(j=0;j<i;j++){
+        for(j=0;j<i;j++){ //i times space jaise value i ka same waise value space ka bdh raha hai
             cout<<" ";
         }
 
         // nums
-        for(j=0;j<n-i;j++){
+        for(j=0;j<n-i;j++){ //hr line me n-i number print ho rahe hai
             cout<<(i+1);
         }
 
