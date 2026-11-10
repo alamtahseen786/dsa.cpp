@@ -1,5 +1,5 @@
 // CALCULATE SUM OF NUMBERS FROM 1 TO N USING FUNCTION
-// Functions are used to reduce redundancy
+// Functions are used to reduce redundancy ,stored in stack memory
 #include<iostream>
 using namespace std;
 
@@ -11,6 +11,8 @@ using namespace std;
     }
     return sum;
 }
+
+
 
 int main(){
     cout<<sumN(5)<<endl;
