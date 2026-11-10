@@ -60,6 +60,3 @@ int main(){
 
 
 
-// triangle pattern
-
-}
