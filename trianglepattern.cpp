@@ -91,5 +91,34 @@ int main(){
 
     cout<<endl;
 
+
+    // simple pyramid pattern
+        //first half of triangle
+        // spaces aage n-i-1 
+        // lines kaise print ho rahi hai 1 to i+1
+
+        // second half triangle right side wala
+        // loop chalega j=i to 1,backward loop
+        
+
+        // code start
+        for(i=0;i<n;i++){
+            // spaces:n-i-1
+            for(j=0;j<n-i-1;j++){
+                cout<< " ";
+            }
+
+            // num1:i+1
+            for(j=1;j<=i+1;j++){
+                cout<<j;
+            }
+
+            // num2:backward loop
+            for(j=i;j>=1;j--){
+                cout<<j;
+            }
+
+            cout<<endl;
+        }
     return 0;
 }
