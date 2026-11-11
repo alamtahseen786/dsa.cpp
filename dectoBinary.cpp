@@ -15,7 +15,7 @@ int dectoBinary(int n){
     return ans;
 }
 int main(){
-    int n=5;
+    int n=50;
     cout<<dectoBinary(n)<<endl;
     return 0;
 }
