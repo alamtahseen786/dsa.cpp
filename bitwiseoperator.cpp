@@ -1,4 +1,4 @@
-// BITWISE OPERATOR-calculate krta hai numbers ko binary form me lakr then gives answer
+// BITWISE OPERATOR-calculate krta hai numbers ko binary form me lakr, then gives answer
 #include<iostream>
 using namespace std;
 
