@@ -3,14 +3,14 @@
     // Ques-find smallest/largest in arrays
 
 #include<iostream>
-#include<climits> //for using INT_MAX function
+#include<climits> //for using INT_MAX and INT_MIN function
 using namespace std;
 int main(){
     int nums[]={10,20,45,33,57};
     int size=5;
 
-    int smallest= INT_MAX;
-    int largest=INT_MIN;
+    int smallest= INT_MAX; //plus infinite
+    int largest=INT_MIN; //minus infinite
 
     for(int i=0;i<size;i++){
         if(nums[i]<smallest){
