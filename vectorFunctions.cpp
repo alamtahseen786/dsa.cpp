@@ -17,6 +17,7 @@ int main(){
 
     cout<<vec2.front()<<endl; //first element
     cout<<vec2.back()<<endl; //last element
+    cout<<vec2.at(0)<<endl; //accessing value at a particular index
 
     vec2.pop_back(); //last value gets removed always
     for(int i=0;i<vec2.size();i++){
